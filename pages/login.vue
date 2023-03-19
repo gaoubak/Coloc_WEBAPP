@@ -14,7 +14,7 @@
                      <button type="submit" class="py-3 w-64 text-xl text-white bg-orange-400 rounded-2xl">Create Account</button> 
                      <p class="mt-4 text-sm">You don't Have An Account?
                      <NuxtLink to="/register" class="n-link-base">
-                      login
+                      register
                       </NuxtLink>
                     </p>
                 </div>

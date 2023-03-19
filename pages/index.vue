@@ -8,6 +8,7 @@
           <p class="w-80 text-center text-sm mb-8 font-semibold text-gray-700 tracking-wide cursor-pointer">Create an account to enjoy all the services without any ads for free!</p>
         </div>
         <ExpenseDetails />
+        <Colocmanagements />
         
       </div>
       <div class="w-40 h-40 absolute bg-orange-300 rounded-full top-0 right-12 hidden md:block"></div>
@@ -19,7 +20,8 @@
 <script>
 //import { useFetch } from 'nuxt'
 
-import ExpenseDetails from './ExpenseDetails.vue';
+import Colocmanagements from '~~/composant/colocmanagements.vue';
+import ExpenseDetails from '../composant/expensedetails.vue';
 
 export default {
     name: "ContactForm",
@@ -54,6 +56,6 @@ export default {
             }
         }
     },
-    components: { ExpenseDetails }
+    components: { ExpenseDetails, Colocmanagements }
 };
 </script>
